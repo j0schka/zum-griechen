@@ -70,7 +70,7 @@ struct ContentView: View {
         switch screenState {
         case .splash:
             VStack(spacing: Spacing.s6) {
-                IllustrationPlaceholder(label: "Grieche mit Bier, comic-gezeichnet (Astérix-Stil)", width: 200, height: 220)
+                GreekManIllustration()
                 SpeechBubble(text: "YAMAS!")
             }
             .transition(.opacity)
