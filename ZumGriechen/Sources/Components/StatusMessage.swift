@@ -29,12 +29,11 @@ struct StatusMessage: View {
             ZStack {
                 Circle()
                     .fill(Color.surfaceCard)
-                Circle()
-                    .stroke(Color.inkOutline, lineWidth: Outline.width)
+                    .overlay(Circle().stroke(Color.inkOutline, lineWidth: Outline.width))
+                    .hardShadow()
                 icon
             }
             .frame(width: 76, height: 76)
-            .hardShadow()
 
             Text(title)
                 .font(AppFont.fredoka(TypeScale.title, weight: .bold))
@@ -83,10 +82,11 @@ private struct ComicPillButtonStyle: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .background(
-                Capsule().fill(configuration.isPressed ? Color.accentPrimary.opacity(0.85) : Color.accentPrimary)
+                Capsule()
+                    .fill(configuration.isPressed ? Color.accentPrimary.opacity(0.85) : Color.accentPrimary)
+                    .overlay(Capsule().stroke(Color.inkOutline, lineWidth: Outline.width))
+                    .hardShadow(3, 3)
             )
-            .overlay(Capsule().stroke(Color.inkOutline, lineWidth: Outline.width))
-            .hardShadow(3, 3)
     }
 }
 

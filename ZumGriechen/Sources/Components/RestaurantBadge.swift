@@ -13,9 +13,12 @@ struct RestaurantBadge: View {
                 .foregroundStyle(Color.textPrimary)
                 .padding(.horizontal, 22)
                 .padding(.vertical, 10)
-                .background(Capsule().fill(Color.surfaceCard))
-                .overlay(Capsule().stroke(Color.inkOutline, lineWidth: Outline.width))
-                .hardShadow(3, 3)
+                .background(
+                    Capsule()
+                        .fill(Color.surfaceCard)
+                        .overlay(Capsule().stroke(Color.inkOutline, lineWidth: Outline.width))
+                        .hardShadow(3, 3)
+                )
         }
     }
 }

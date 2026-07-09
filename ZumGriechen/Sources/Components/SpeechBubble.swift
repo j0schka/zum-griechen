@@ -20,12 +20,9 @@ struct SpeechBubble: View {
             .background(
                 RoundedRectangle(cornerRadius: Radius.md)
                     .fill(Color.surfaceCard)
+                    .overlay(RoundedRectangle(cornerRadius: Radius.md).stroke(Color.inkOutline, lineWidth: Outline.widthLarge))
+                    .hardShadow(6, 6)
             )
-            .overlay(
-                RoundedRectangle(cornerRadius: Radius.md)
-                    .stroke(Color.inkOutline, lineWidth: Outline.widthLarge)
-            )
-            .hardShadow(6, 6)
             .overlay(alignment: tailSide == .bottomLeft ? .bottomLeading : .bottomTrailing) {
                 SpeechTail()
                     .frame(width: 40, height: 30)

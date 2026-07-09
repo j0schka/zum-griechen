@@ -115,7 +115,15 @@ struct ContentView: View {
                 ))
 
                 VStack(spacing: Spacing.s7) {
-                    CompassArrow(heading: rotation, size: 220)
+                    Button {
+                        restaurant.openInMaps()
+                    } label: {
+                        CompassArrow(heading: rotation, size: 220)
+                    }
+                    .buttonStyle(.plain)
+                    .accessibilityLabel("In Karten öffnen")
+                    .accessibilityHint("Öffnet \(restaurant.name) in Karten")
+
                     VStack(spacing: Spacing.s5) {
                         DistanceReadout(meters: distance)
                         RestaurantBadge(name: restaurant.name)

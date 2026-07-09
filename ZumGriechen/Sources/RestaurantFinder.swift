@@ -6,6 +6,12 @@ struct Restaurant: Identifiable {
     let id = UUID()
     let name: String
     let coordinate: CLLocationCoordinate2D
+
+    func openInMaps() {
+        let mapItem = MKMapItem(placemark: MKPlacemark(coordinate: coordinate))
+        mapItem.name = name
+        mapItem.openInMaps()
+    }
 }
 
 @MainActor
