@@ -126,7 +126,14 @@ struct ContentView: View {
 
                     VStack(spacing: Spacing.s5) {
                         DistanceReadout(meters: distance)
-                        RestaurantBadge(name: restaurant.name)
+                        Button {
+                            restaurant.openInMaps()
+                        } label: {
+                            RestaurantBadge(name: restaurant.name)
+                        }
+                        .buttonStyle(.plain)
+                        .accessibilityLabel("In Karten öffnen")
+                        .accessibilityHint("Öffnet \(restaurant.name) in Karten")
                     }
                 }
                 .transition(.opacity)
