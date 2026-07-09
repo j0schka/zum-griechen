@@ -7,17 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		079B8626879A84D540D0BEC1 /* RestaurantBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EE30085C2D0AFC8815D6DE /* RestaurantBadge.swift */; };
 		07BC9C015AEEEE3CA9AA0E60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60F2B78AEE90176C4D6A43E /* ContentView.swift */; };
+		14699A29B5610DADAEBC4BD5 /* RestaurantFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8720E2DE0E07FEA3EEB15DC2 /* RestaurantFinder.swift */; };
+		1CD11C32A422729DD66046A0 /* DistanceReadout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A9FB4CDC767468D39D8459 /* DistanceReadout.swift */; };
+		2F9BD9DE48D2BC8193EF919D /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43968E6C35BB6209D3C0B789 /* Typography.swift */; };
 		3262EFAE032D0CDB4F846CE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3880DDDA588ECE4BE02922 /* Assets.xcassets */; };
+		41DD4D5D2CDB625EDA6727BB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F923A96838FE6B14F73C19 /* Colors.swift */; };
+		63C2B71E44AD3A2864A9E055 /* StatusMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADC4FECEB5A6C04BC9BF20B /* StatusMessage.swift */; };
+		64B3F0156DAFAFB1A8F4F0AB /* IllustrationPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1748A0F0B1F5C0C08BA4938A /* IllustrationPlaceholder.swift */; };
+		6F14ACA7D6273411E131AE12 /* CompassArrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2FA6E0ED506DD7BABCCBDC /* CompassArrow.swift */; };
+		70A732F50182073B7857239A /* SpeechBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56480F3E7BDC4B9E7F41BED9 /* SpeechBubble.swift */; };
+		8DB8D45DCE9D8643F06756BB /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4CAC3351B255401FEB0800 /* LocationManager.swift */; };
 		AA26E17C15AB25084774ADDE /* ZumGriechenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19F2A8A52636D46FF68995B /* ZumGriechenApp.swift */; };
+		AE5A8213A2EAFFC9A0298025 /* Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729C5C33A7E4C1424C1AED32 /* Geo.swift */; };
+		C7009CA0F03193AF8501FF5E /* OFL-Bangers.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF44F9C8BA49472F35A2E85A /* OFL-Bangers.txt */; };
+		C74667AA3A557FDC7E4A3BAB /* Bangers-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E211747E366538EC198B7AF1 /* Bangers-Regular.ttf */; };
+		D15DBA6B687FC32A0BD07253 /* Metrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D035DF3F16E4B475C63829 /* Metrics.swift */; };
+		D4D2B1DA3D4E681192E89355 /* Fredoka-Variable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C81612140F08BDCEAF37948A /* Fredoka-Variable.ttf */; };
+		F498F30E631D7A39EAF86C8C /* OFL-Fredoka.txt in Resources */ = {isa = PBXBuildFile; fileRef = 70F8B4079B71AFA8412C3F0C /* OFL-Fredoka.txt */; };
+		F675965ACB7C6A5E7D1F4998 /* AppBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92260767C724238A6A40030 /* AppBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1748A0F0B1F5C0C08BA4938A /* IllustrationPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllustrationPlaceholder.swift; sourceTree = "<group>"; };
+		3ADC4FECEB5A6C04BC9BF20B /* StatusMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMessage.swift; sourceTree = "<group>"; };
+		43968E6C35BB6209D3C0B789 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		55A9FB4CDC767468D39D8459 /* DistanceReadout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceReadout.swift; sourceTree = "<group>"; };
+		55D035DF3F16E4B475C63829 /* Metrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metrics.swift; sourceTree = "<group>"; };
+		56480F3E7BDC4B9E7F41BED9 /* SpeechBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechBubble.swift; sourceTree = "<group>"; };
+		70F8B4079B71AFA8412C3F0C /* OFL-Fredoka.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "OFL-Fredoka.txt"; sourceTree = "<group>"; };
+		729C5C33A7E4C1424C1AED32 /* Geo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geo.swift; sourceTree = "<group>"; };
+		8720E2DE0E07FEA3EEB15DC2 /* RestaurantFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantFinder.swift; sourceTree = "<group>"; };
+		A92260767C724238A6A40030 /* AppBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackground.swift; sourceTree = "<group>"; };
 		AA78FD408EE9D3A91FD0E72D /* ZumGriechen.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ZumGriechen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19F2A8A52636D46FF68995B /* ZumGriechenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZumGriechenApp.swift; sourceTree = "<group>"; };
+		BF44F9C8BA49472F35A2E85A /* OFL-Bangers.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "OFL-Bangers.txt"; sourceTree = "<group>"; };
 		C2C7232F409C21FBA63C4FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C81612140F08BDCEAF37948A /* Fredoka-Variable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka-Variable.ttf"; sourceTree = "<group>"; };
 		CF3880DDDA588ECE4BE02922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9F923A96838FE6B14F73C19 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		E211747E366538EC198B7AF1 /* Bangers-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bangers-Regular.ttf"; sourceTree = "<group>"; };
+		EB2FA6E0ED506DD7BABCCBDC /* CompassArrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassArrow.swift; sourceTree = "<group>"; };
+		F0EE30085C2D0AFC8815D6DE /* RestaurantBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantBadge.swift; sourceTree = "<group>"; };
 		F60F2B78AEE90176C4D6A43E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FE4CAC3351B255401FEB0800 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -25,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				CF3880DDDA588ECE4BE02922 /* Assets.xcassets */,
+				D6887D062A3FE46C54124B7A /* Fonts */,
 			);
 			name = Resources;
 			path = ZumGriechen/Resources;
@@ -38,6 +73,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		472239E6176A4D58C4017BC7 /* Licenses */ = {
+			isa = PBXGroup;
+			children = (
+				BF44F9C8BA49472F35A2E85A /* OFL-Bangers.txt */,
+				70F8B4079B71AFA8412C3F0C /* OFL-Fredoka.txt */,
+			);
+			path = Licenses;
+			sourceTree = "<group>";
+		};
 		51AE635C9D26D660F4139753 = {
 			isa = PBXGroup;
 			children = (
@@ -47,12 +91,51 @@
 			);
 			sourceTree = "<group>";
 		};
+		57735B57F0D86C54487C4C85 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A92260767C724238A6A40030 /* AppBackground.swift */,
+				EB2FA6E0ED506DD7BABCCBDC /* CompassArrow.swift */,
+				55A9FB4CDC767468D39D8459 /* DistanceReadout.swift */,
+				1748A0F0B1F5C0C08BA4938A /* IllustrationPlaceholder.swift */,
+				F0EE30085C2D0AFC8815D6DE /* RestaurantBadge.swift */,
+				56480F3E7BDC4B9E7F41BED9 /* SpeechBubble.swift */,
+				3ADC4FECEB5A6C04BC9BF20B /* StatusMessage.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6A1447F8B18B7DCA766ACC5D /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				D9F923A96838FE6B14F73C19 /* Colors.swift */,
+				55D035DF3F16E4B475C63829 /* Metrics.swift */,
+				43968E6C35BB6209D3C0B789 /* Typography.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		D6887D062A3FE46C54124B7A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E211747E366538EC198B7AF1 /* Bangers-Regular.ttf */,
+				C81612140F08BDCEAF37948A /* Fredoka-Variable.ttf */,
+				472239E6176A4D58C4017BC7 /* Licenses */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		FA8EBD5C35DB9CE779CAEF6C /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				F60F2B78AEE90176C4D6A43E /* ContentView.swift */,
+				729C5C33A7E4C1424C1AED32 /* Geo.swift */,
 				C2C7232F409C21FBA63C4FB7 /* Info.plist */,
+				FE4CAC3351B255401FEB0800 /* LocationManager.swift */,
+				8720E2DE0E07FEA3EEB15DC2 /* RestaurantFinder.swift */,
 				B19F2A8A52636D46FF68995B /* ZumGriechenApp.swift */,
+				57735B57F0D86C54487C4C85 /* Components */,
+				6A1447F8B18B7DCA766ACC5D /* DesignSystem */,
 			);
 			name = Sources;
 			path = ZumGriechen/Sources;
@@ -115,6 +198,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3262EFAE032D0CDB4F846CE6 /* Assets.xcassets in Resources */,
+				C74667AA3A557FDC7E4A3BAB /* Bangers-Regular.ttf in Resources */,
+				D4D2B1DA3D4E681192E89355 /* Fredoka-Variable.ttf in Resources */,
+				C7009CA0F03193AF8501FF5E /* OFL-Bangers.txt in Resources */,
+				F498F30E631D7A39EAF86C8C /* OFL-Fredoka.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +212,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F675965ACB7C6A5E7D1F4998 /* AppBackground.swift in Sources */,
+				41DD4D5D2CDB625EDA6727BB /* Colors.swift in Sources */,
+				6F14ACA7D6273411E131AE12 /* CompassArrow.swift in Sources */,
 				07BC9C015AEEEE3CA9AA0E60 /* ContentView.swift in Sources */,
+				1CD11C32A422729DD66046A0 /* DistanceReadout.swift in Sources */,
+				AE5A8213A2EAFFC9A0298025 /* Geo.swift in Sources */,
+				64B3F0156DAFAFB1A8F4F0AB /* IllustrationPlaceholder.swift in Sources */,
+				8DB8D45DCE9D8643F06756BB /* LocationManager.swift in Sources */,
+				D15DBA6B687FC32A0BD07253 /* Metrics.swift in Sources */,
+				079B8626879A84D540D0BEC1 /* RestaurantBadge.swift in Sources */,
+				14699A29B5610DADAEBC4BD5 /* RestaurantFinder.swift in Sources */,
+				70A732F50182073B7857239A /* SpeechBubble.swift in Sources */,
+				63C2B71E44AD3A2864A9E055 /* StatusMessage.swift in Sources */,
+				2F9BD9DE48D2BC8193EF919D /* Typography.swift in Sources */,
 				AA26E17C15AB25084774ADDE /* ZumGriechenApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

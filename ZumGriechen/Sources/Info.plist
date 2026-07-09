@@ -18,6 +18,13 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Zum Griechen benötigt deinen Standort, um das nächstgelegene griechische Restaurant zu finden.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Fredoka-Variable.ttf</string>
+		<string>Bangers-Regular.ttf</string>
+	</array>
 	<key>UILaunchScreen</key>
 	<dict/>
 	<key>UISupportedInterfaceOrientations</key>

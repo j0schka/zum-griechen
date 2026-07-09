@@ -23,6 +23,10 @@ targets:
         UILaunchScreen: {}
         UISupportedInterfaceOrientations:
           - UIInterfaceOrientationPortrait
+        NSLocationWhenInUseUsageDescription: "Zum Griechen benötigt deinen Standort, um das nächstgelegene griechische Restaurant zu finden."
+        UIAppFonts:
+          - Fredoka-Variable.ttf
+          - Bangers-Regular.ttf
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.ohrenspiel.zumgriechen
