@@ -46,4 +46,8 @@ Zustände neben dem Ergebnis: Ladeanzeige, "Standortzugriff wird benötigt" (Ber
 
 ## Design
 
-Aktuell bewusst ungestaltet (Systemfont, SF-Symbol-Pfeil, reiner Text). Das visuelle Design entsteht separat auf [claude.ai/design](https://claude.ai/design) und wird danach hier eingearbeitet.
+"Classic Flag Comic" Design-System aus [claude.ai/design](https://claude.ai/design) umgesetzt: Fredoka/Bangers-Fonts, Flaggenblau + Weiß, dicke Tinten-Konturen mit hartem Versatz-Schatten. Komponenten unter `ZumGriechen/Sources/Components`, Tokens unter `ZumGriechen/Sources/DesignSystem`.
+
+## App Store
+
+Store-Metadaten (Name, Untertitel, Beschreibung, Keywords) liegen als Klartext unter `fastlane/metadata/de-DE/` — dem Standardformat von `fastlane deliver`, auch ohne dass das Projekt aktuell fastlane nutzt. Das App-Icon ist ein einzelnes 1024×1024-PNG (`ZumGriechen/Resources/Assets.xcassets/AppIcon.appiconset`, Vektorquelle unter `design/app-icon.svg`) — seit Xcode 14/iOS 17 reicht das, alle weiteren Größen generiert Xcode automatisch.
