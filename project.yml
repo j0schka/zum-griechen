@@ -1,6 +1,6 @@
 name: ZumGriechen
 options:
-  bundleIdPrefix: com.zumgriechen
+  bundleIdPrefix: io.github.j0schka
   deploymentTarget:
     iOS: "17.0"
 configs:
@@ -30,7 +30,7 @@ targets:
           - Bangers-Regular.ttf
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.zumgriechen.app
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.j0schka.zumgriechen
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
-        TARGETED_DEVICE_FAMILY: "1,2"
+        TARGETED_DEVICE_FAMILY: "1"

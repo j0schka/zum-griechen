@@ -37,7 +37,7 @@ struct ContentView: View {
         .onAppear {
             locationManager.start()
             Task {
-                try? await Task.sleep(nanoseconds: 1_400_000_000)
+                try? await Task.sleep(nanoseconds: 1_000_000_000)
                 showSplash = false
             }
         }
