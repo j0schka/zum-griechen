@@ -50,4 +50,10 @@ Zustände neben dem Ergebnis: Ladeanzeige, "Standortzugriff wird benötigt" (Ber
 
 ## App Store
 
-Store-Metadaten (Name, Untertitel, Beschreibung, Keywords) liegen als Klartext unter `fastlane/metadata/de-DE/` — dem Standardformat von `fastlane deliver`, auch ohne dass das Projekt aktuell fastlane nutzt. Das App-Icon ist ein einzelnes 1024×1024-PNG (`ZumGriechen/Resources/Assets.xcassets/AppIcon.appiconset`, Vektorquelle unter `design/app-icon.svg`) — seit Xcode 14/iOS 17 reicht das, alle weiteren Größen generiert Xcode automatisch.
+Alles zur Store-Einreichung liegt unter [`appstore/`](appstore):
+- [`appstore/metadata.md`](appstore/metadata.md) — Name, Untertitel, Beschreibung, Keywords, Werbetext und alle weiteren ASC-Felder zum Copy-Pasten.
+- `appstore/screenshots/` — nach Gerätegröße sortiert (6.5"/6.7" sind die von App Store Connect verlangten Pflichtgrößen).
+
+Datenschutzerklärung: [`PRIVACY.md`](PRIVACY.md), gehostet als GitHub-Blob-URL (`github.com/j0schka/zum-griechen/blob/main/PRIVACY.md`) — dafür muss das Repo öffentlich bleiben.
+
+Das App-Icon ist ein einzelnes 1024×1024-PNG (`ZumGriechen/Resources/Assets.xcassets/AppIcon.appiconset`, Vektorquelle unter `design/app-icon.svg`) — seit Xcode 14/iOS 17 reicht das, alle weiteren Größen generiert Xcode automatisch.
