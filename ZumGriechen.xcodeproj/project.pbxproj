@@ -40,7 +40,7 @@
 		801E05D508DDC73EC9041656 /* GreekManIllustration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekManIllustration.swift; sourceTree = "<group>"; };
 		8720E2DE0E07FEA3EEB15DC2 /* RestaurantFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantFinder.swift; sourceTree = "<group>"; };
 		A92260767C724238A6A40030 /* AppBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackground.swift; sourceTree = "<group>"; };
-		AA78FD408EE9D3A91FD0E72D /* ZumGriechen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZumGriechen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA78FD408EE9D3A91FD0E72D /* ZumGriechen.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ZumGriechen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19F2A8A52636D46FF68995B /* ZumGriechenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZumGriechenApp.swift; sourceTree = "<group>"; };
 		BF44F9C8BA49472F35A2E85A /* OFL-Bangers.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "OFL-Bangers.txt"; sourceTree = "<group>"; };
 		C2C7232F409C21FBA63C4FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -170,6 +170,11 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C804D6137356F396969B8419 = {
+						DevelopmentTeam = UZD6RUTVZP;
+					};
+				};
 			};
 			buildConfigurationList = 57E979F781097A72A6392DFE /* Build configuration list for PBXProject "ZumGriechen" */;
 			developmentRegion = en;
