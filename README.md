@@ -2,6 +2,14 @@
 
 iOS-App, die nur eine Sache tut: das nächstgelegene griechische Restaurant anzeigen — als Kompasspfeil in die Richtung, darunter die Entfernung in Metern. Kein Listing, keine Karte, keine Navigation.
 
+---
+
+## Support
+
+Fragen, Bugs oder Feature-Wünsche? Bitte [ein Issue auf GitHub eröffnen](https://github.com/j0schka/zum-griechen/issues) — das erreicht den Entwickler am schnellsten. Alternativ per Mail: [joschkafriedag@gmail.com](mailto:joschkafriedag@gmail.com).
+
+---
+
 ## Stack
 
 - SwiftUI, iOS 17+
