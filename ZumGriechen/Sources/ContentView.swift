@@ -5,6 +5,7 @@ import UIKit
 private enum AppScreenState {
     case splash
     case loading
+    case servicesDisabled
     case denied
     case empty(message: String)
     case result
@@ -14,9 +15,13 @@ struct ContentView: View {
     @StateObject private var locationManager = LocationManager()
     @StateObject private var restaurantFinder = RestaurantFinder()
     @State private var showSplash = true
+    @Environment(\.scenePhase) private var scenePhase
 
     private var screenState: AppScreenState {
         if showSplash { return .splash }
+        if locationManager.servicesDisabled {
+            return .servicesDisabled
+        }
         if locationManager.authorizationStatus == .denied || locationManager.authorizationStatus == .restricted {
             return .denied
         }
@@ -46,6 +51,11 @@ struct ContentView: View {
                 restaurantFinder.findNearest(to: location)
             }
         }
+        .onChange(of: scenePhase) { _, newPhase in
+            if newPhase == .active {
+                locationManager.refresh()
+            }
+        }
     }
 
     private var isTintedState: Bool {
@@ -59,6 +69,7 @@ struct ContentView: View {
         switch screenState {
         case .splash: return "splash"
         case .loading: return "loading"
+        case .servicesDisabled: return "servicesDisabled"
         case .denied: return "denied"
         case .empty: return "empty"
         case .result: return "result"
@@ -81,6 +92,19 @@ struct ContentView: View {
                 title: "Suche läuft",
                 message: "Wir orten das nächste griechische Restaurant."
             )
+            .transition(.opacity)
+
+        case .servicesDisabled:
+            StatusMessage(
+                variant: .denied,
+                title: "Ortungsdienste deaktiviert",
+                message: "Aktiviere Ortungsdienste in den Einstellungen, um dein Lokal zu finden.",
+                actionLabel: "Einstellungen öffnen"
+            ) {
+                if let url = URL(string: UIApplication.openSettingsURLString) {
+                    UIApplication.shared.open(url)
+                }
+            }
             .transition(.opacity)
 
         case .denied:
